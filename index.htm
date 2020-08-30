@@ -19,7 +19,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<meta name="author" content="123">
-	<meta name="description" content="这是123为round表白制作的表白网站">
+	<meta name="description" content="这是XX为XXX表白制作的表白网站">
 	<title>XXX LOVE XXX</title>
 	<link rel="stylesheet" href="all.min.css" >
 </head>
@@ -28,7 +28,8 @@
 		<div class="ft-section section-1" data-id="section-1">
 			<div id="/section-1/page-1" class="ft-page page-1" data-id="page-1">
 				<p class="text1"><span id="text-75" contenteditable="true">XX</span> ❤ <span id="text-76" contenteditable="true">XX</span> <span id="text-77" contenteditable="true">一生一世</span></p>
-				<p class="text2">按键盘 "↓" <span id="text-78" contenteditable="true">开始倾听工科男的浪漫表白</span></p>
+				<p class="text2">点击右下角音乐图标两下开始播放音乐</p>
+				<p class="text2">按键盘 "↓" <span id="text-78" contenteditable="true">开始倾听XX的浪漫表白</span></p>
 			</div>
 			<div id="/section-1/page-2" class="ft-page page-2" data-id="page-2">
 				<p class="top-text" id="text-1" contenteditable="true">过去的XX一直是一个人生活，享受着孤独，也憧憬着爱情。</p>
@@ -293,14 +294,31 @@
 	<div class="nojavascript">您的浏览器禁用了javascript，无法正常浏览本页面</div>
 	
 
-	<audio id="bgmMusic" src="lovebgm.mp3" autoplay="autoplay" loop preload="auto" type="audio/mp3"></audio>
+	<audio id="bgmMusic" src="lovebgm.mp3" autoplay="autoplay" loop preload="auto" type="audio/mp3">
+		
+	</audio>
 
 	
 	<script src="jquery.min.js" tppabs="http://libs.baidu.com/jquery/1.8.3/jquery.min.js"></script>
 	<script src="all.min.js" ></script>
 	<script src="love.min.js" ></script>
-	<div class="mPower"><span id="on" title="点击暂停" style=""></span><span id="off" title="点击播放"  style=""></span></div>
+	<div class="mPower"><span style="font-size:10px;font-weight: bold;">点击两下音乐图标播放音乐</span><span id="on" title="点击暂停" style=""></span><span id="off" title="点击播放"  style=""></span></div>
 
 	
 </body>
 </html>
+<script type="text/javascript">
+   $(function(){
+		
+		
+   });
+   function on() {
+   		$("#off").click();
+   }
+
+   function off() {
+    	$("#on").click();
+   }
+
+
+</script>
